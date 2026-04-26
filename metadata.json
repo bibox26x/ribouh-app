@@ -1,0 +1,6 @@
+{
+  "name": "Remix: IoT Sentinel Dashboard",
+  "description": "Real-time surveillance system for temperature, humidity, and gas detection designed for ESP32 IoT projects. Now upgraded to a React Native mobile app using Expo, with Android Push Notification capabilities built right in.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

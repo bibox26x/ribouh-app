@@ -1,0 +1,38 @@
+{
+  "name": "iot-sentinel-mobile",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "dev": "expo start --web --port 3000 --clear",
+    "build": "expo export -p web --clear"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~3.2.3",
+    "@types/react": "~18.2.79",
+    "clsx": "^2.1.1",
+    "date-fns": "^3.6.0",
+    "expo": "~51.0.28",
+    "expo-constants": "~16.0.2",
+    "expo-device": "~6.0.2",
+    "expo-notifications": "~0.28.1",
+    "expo-status-bar": "~1.12.1",
+    "lucide-react-native": "^0.368.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.74.5",
+    "react-native-chart-kit": "^6.12.0",
+    "react-native-svg": "15.2.0",
+    "react-native-web": "~0.19.10",
+    "tailwind-merge": "^2.3.0",
+    "twrnc": "^4.16.0",
+    "typescript": "~5.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
